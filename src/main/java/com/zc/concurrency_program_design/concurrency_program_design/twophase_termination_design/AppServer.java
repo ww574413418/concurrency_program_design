@@ -66,7 +66,7 @@ public class AppServer extends Thread{
                 workThreads.add(clientHandler);
             }
         } catch (IOException e) {
-            log.error("The port connect has been interrupt");
+            log.error("The connect has been interrupt");
 
         }finally {
             // 关闭socket的时候 关闭对应的工作线程
