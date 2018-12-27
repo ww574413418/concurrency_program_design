@@ -16,7 +16,7 @@ public class AppServerClient {
             AppServer appServer = new AppServer();
             appServer.start();
 
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(40);
 
             appServer.close();
         } catch (InterruptedException e) {
